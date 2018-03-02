@@ -38,7 +38,6 @@ let mservice = new Microservice({
     fields: {
       username: 'username.login'
     },
-    descr
   }
 });
 
