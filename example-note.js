@@ -32,7 +32,7 @@ let mservice = new Microservice({
   schema: process.env.SCHEMA,
   id: {
     title: 'Note id',
-    field: 'id',
+    field: '_id',
     type: 'ObjectID',
     description: 'Note id.',
     fields: {
